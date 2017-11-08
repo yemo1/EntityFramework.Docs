@@ -1,5 +1,5 @@
 ---
-title: "Entity Framework (EF) Documentation - EF6"
+title: "Get Started with Entity Framework - EF6"
 author: divega
 ms.date: "2016-10-23"
 ms.prod: "entity-framework"
@@ -12,15 +12,13 @@ ms.topic: "article"
 ms.assetid: 66ce9113-81d2-480f-8c16-d00ec405b2f7
 caps.latest.revision: 3
 ---
-# Entity Framework (EF) Documentation
+# Get Started with Entity Framework
 This page provides an index of videos, tutorials, and advanced documentation to help you make the most of Entity Framework. The following sections are included on this page.
-
-## Get Started
 
 [Which workflow should I use?](../ef6/entity-framework-development-workflows-video.md)  
 Entity Framework allows you to create a model by writing code or using boxes and lines in the EF Designer. Both of these approaches can be used to target an existing database or create a new database. This short video explains the differences and how to find the one that is right for you.
 
-### I just want to write code...
+## I just want to write code...
 
 [I am creating a new database](../ef6/entity-framework-code-first-to-a-new-database.md)  
 Use **Code First** to define your model in code and then generate a database.
@@ -28,14 +26,13 @@ Use **Code First** to define your model in code and then generate a database.
 [I need to access an existing database](../ef6/entity-framework-code-first-to-an-existing-database.md)  
 Use **Code First** to create a code based model that maps to an existing database.
 
-### I want to use a designer...
+## I want to use a designer...
 
 [I am creating a new database](../ef6/entity-framework-model-first.md)  
 Use **Model First** to define your model using boxes and lines and then generate a database.
 
 [I need to access an existing database](../ef6/entity-framework-database-first.md)  
 Use **Database First** to create a boxes and lines model that maps to an existing database.
-
 
 ## Entity Framework Versions
 
@@ -53,8 +50,6 @@ These pages will help you move existing applications to EF6.
 
 - [Upgrading to EF6](../ef6/upgrading-to-entity-framework-6.md)  
     A checklist of the things you need to do to upgrade an existing application to EF6.
-- [Database Provider with EF6 Support](../ef6/entity-framework-providers-for-ef6.md)  
-    Find out which database providers currently support EF6.
 
 ## Learn More About Setting Up Your Model
 
@@ -107,9 +102,6 @@ Use Code First to define your model in code and then generate a database.
 [Code First to an Existing Database](../ef6/entity-framework-code-first-to-an-existing-database.md)  
 Use Code First to create a code based model that maps to an existing database.
 
-[Customizing Code First to an Existing Database](../ef6/customizing-code-first-to-an-existing-database.md)  
-Customize the code that gets scaffolded by the Code First to Existing Database wizard.
-
 [Conventions](../ef6/entity-framework-code-first-conventions.md)  
 Find out about the conventions Code First uses to build your model.
 
@@ -150,7 +142,7 @@ Use Migrations with an existing database, one that wasn't created by Entity Fram
 Automatic migrations allow you to upgrade your database without code-based migrations in your project.
 
 [Customizing the Migrations History Table (Code First only)](../ef6/entity-framework-customizing-the-migrations-history-table-ef6-onwards.md)  
-Customize the definition of the __MigrationHistory table.
+Customize the definition of the `__MigrationHistory` table.
 
 [Custom Migrations Operations (EF6 onwards)](http://romiller.com/2013/02/27/ef6-writing-your-own-code-first-migration-operations/)  
 Create additional operations to be used in your code-based migrations.
@@ -219,8 +211,14 @@ Find out how to customize the code that is generated from your model.
 [Reverting to ObjectContext](../ef6/reverting-to-objectcontext-in-entity-framework-designer.md)  
 New models created in VS2012 generate code that uses DbContext, but you can revert to ObjectContext.
 
-[EDMX Files](../ef6/entity-framework-edmx.md)  
-Covers properties of EDMX files and specification of the xml format (including [CSDL](../ef6/entity-framework-csdl-specification.md), [SSDL](../ef6/entity-framework-ssdl-specification.md) & [MSL](../ef6/entity-framework-msl-specification.md)).
+[CSDL Specification](../ef6/entity-framework-csdl-specification.md)
+Covers the conceptual schema definition language used in the XML-based EDMX file format used by EF.
+
+[SSDL Specification](../ef6/entity-framework-ssdl-specification.md)
+Covers the store schema definition language used in the XML-based EDMX file format used by EF.
+
+[MSL Specification](../ef6/entity-framework-msl-specification.md)
+Covers the mapping specification language used in the XML-based EDMX file format used by EF.
 
 [Keyboard Shortcuts](../ef6/entity-framework-tools-keyboard-shortcuts.md)  
 A helpful list of keyboard shortcuts in Entity Framework Tools for Visual Studio.

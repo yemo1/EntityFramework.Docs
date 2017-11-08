@@ -79,7 +79,6 @@ Here is a list of content we put together specifically for the EF 5 release.
         -   [Defining Queries](../ef6/entity-framework-defining-query-ef-designer.md)
         -   [Code Generation Templates](../ef6/entity-framework-designer-code-generation-templates.md)
         -   [Reverting to ObjectContext](../ef6/reverting-to-objectcontext-in-entity-framework-designer.md)
-        -   [EDMX Files](../ef6/entity-framework-edmx.md)
 -   Using Your Model
     -   [Working with DbContext](../ef6/entity-framework-working-with-dbcontext.md)
     -   [Querying/Finding Entities](../ef6/entity-framework-querying-and-finding-entities.md)
@@ -100,7 +99,7 @@ Here is a list of content we put together specifically for the EF 5 release.
     -   [ASP.NET MVC](http://www.asp.net/mvc/tutorials/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application)
     -   [ASP.NET Web API](http://blogs.msdn.com/b/jasonz/archive/2012/07/23/my-favorite-features-entity-framework-code-first-and-asp-net-web-api.aspx)
     -   [ASP.NET Web Forms](http://www.asp.net/web-forms/tutorials/aspnet-45/getting-started-with-aspnet-45-web-forms/create_the_data_access_layer)
-    -   [Data Binding with WPF (Windows Presentation Foundation)](../ef6/data-binding-with-wpf-and-the-entity-framework.md)
+    -   [Data Binding with WPF (Windows Presentation Foundation)](../ef6/entity-framework-databinding-with-wpf.md)
     -   [Data Binding with WinForms (Windows Forms)](../ef6/entity-framework-databinding-with-winforms.md)
 
 ## EF 4.3
