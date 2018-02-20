@@ -238,7 +238,8 @@
 #### [Automatic Detect Changes](ef6/entity-framework-automatic-detect-changes.md)
 
 ### Advanced
-### [Connection Management](ef6/entity-framework-connection-management.md)
+#### [Working with Azure SQL DB](ef6/entity-framework-windows-sql-azure.md)
+#### [Connection Management](ef6/entity-framework-connection-management.md)
 #### [Working with Proxies](ef6/entity-framework-working-with-proxies.md)
 #### [Logging and Intercepting Database Operations](ef6/entity-framework-logging-and-intercepting-database-operations-ef6-onwards.md)
 
@@ -263,7 +264,6 @@
 
 #### Connection Resiliency
 ##### [Connection Resiliency and Retry Logic](ef6/entity-framework-connection-resiliency-and-retry-logic-ef6-onwards.md)
-##### [SQL Azure](ef6/entity-framework-windows-sql-azure.md)
 ##### [Connection Failures During Transaction Commit](ef6/entity-framework-connection-failures-during-transaction-commit.md)
 ##### [Limitations with Retrying Execution Strategies](ef6/entity-framework-limitations-with-retrying-execution-strategies-ef6-onwards.md)
 ##### [Handling of Transaction Commit Failures](ef6/entity-framework-handling-of-transaction-commit-failures-ef6-1-onwards.md)
