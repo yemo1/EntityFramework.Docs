@@ -26,8 +26,6 @@ In order to use spatial data types on Windows Azure you will need to deploy the 
 Install-Package Microsoft.SqlServer.Types
 ```
 
- 
-
 ## Connecting to SQL Azure
 
 Entity Framework can connect to SQL Azure without any additional configuration simply by treating it as any other SQL Server database. This is true for models created using Code First and the EF Designer - whether you are targeting an existing SQL Azure database or having EF create a new database for you.
@@ -40,11 +38,11 @@ Experiencing connectivity drops, classified as general network issues, is common
 
 #### Connection Resiliency (EF6 onwards)
 
-Starting with EF6, Entity Framework has built-in retry logic. For more information, see [Connection Resiliency (Retry Logic)](../ef6/entity-framework-connection-resiliency-and-retry-logic-ef6-onwards.md).
+Starting with EF6, Entity Framework has built-in retry logic. For more information, see [Connection Resiliency (Retry Logic)](~/ef6/advanced/connection-resiliency/entity-framework-connection-resiliency-and-retry-logic-ef6-onwards.md).
 
 #### Handling of Transaction Commit Failures (EF6.1 onwards)
 
-Starting with EF6.1, Entity Framework has built-in logic to help recover from failures that occur while committing a transaction. For more information, see [Handling of Transaction Commit Failures (EF6.1 Onwards)](../ef6/entity-framework-handling-of-transaction-commit-failures-ef6-1-onwards.md).
+Starting with EF6.1, Entity Framework has built-in logic to help recover from failures that occur while committing a transaction. For more information, see [Handling of Transaction Commit Failures (EF6.1 Onwards)](~/ef6/advanced/connection-resiliency/entity-framework-handling-of-transaction-commit-failures-ef6-1-onwards.md).
 
 #### Prior to EF6
 

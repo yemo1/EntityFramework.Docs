@@ -32,7 +32,7 @@ Connection retry is taken care of by an implementation of the IDbExecutionStrate
 
 ## Enabling an Execution Strategy  
 
-The easiest way to tell EF to use an execution strategy is with the SetExecutionStrategy method of the [DbConfiguration](../ef6/entity-framework-code-based-configuration-ef6-onwards.md) class:  
+The easiest way to tell EF to use an execution strategy is with the SetExecutionStrategy method of the [DbConfiguration](~/ef6/advanced/configuration/entity-framework-code-based-configuration-ef6-onwards.md) class:  
 
 ```  
 public class MyConfiguration : DbConfiguration
@@ -70,4 +70,4 @@ The execution strategies will only retry a limited number of exceptions that are
 
 ## Limitations  
 
-There are some known limitations when using ExecutionStrategies. If you want to use user initiated transactions or streaming instead of buffered queries then you should read more [here](../ef6/entity-framework-limitations-with-retrying-execution-strategies-ef6-onwards.md).  
+There are some known limitations when using ExecutionStrategies. If you want to use user initiated transactions or streaming instead of buffered queries then you should read more [here](entity-framework-limitations-with-retrying-execution-strategies-ef6-onwards.md).  
