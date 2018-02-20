@@ -17,7 +17,7 @@ caps.latest.revision: 3
 
 Configuration for an Entity Framework application can be specified in a config file (app.config/web.config) or through code. The latter is known as code-based configuration.  
 
-Configuration in a config file is described in a [separate article](../ef6/entity-framework-config-file-settings.md). The config file takes precedence over code-based configuration. In other words, if a configuration option is set in both code and in the config file, then the setting in the config file is used.  
+Configuration in a config file is described in a [separate article](entity-framework-config-file-settings.md). The config file takes precedence over code-based configuration. In other words, if a configuration option is set in both code and in the config file, then the setting in the config file is used.  
 
 ## Using DbConfiguration  
 

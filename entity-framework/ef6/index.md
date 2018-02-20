@@ -13,7 +13,9 @@ uid: ef6/index
 ---
 # Entity Framework 6 Quick Overview
 
-Entity Framework 6 (EF6) is a tried and tested data access technology with many years of features and stabilization. The first version of Entity Framework (EF) released in 2008, as part of .NET Framework 3.5 SP1 and Visual Studio 2008 SP1. Starting with the EF4.1 release it has shipped as the [EntityFramework NuGet package](https://www.nuget.org/packages/EntityFramework/) - currently one of the most popular packages on NuGet.org.
+Entity Framework (EF) is a tried and tested data access technology with many years of features and stabilization. The first version of Entity Framework was released in 2008, as part of .NET Framework 3.5 SP1 and Visual Studio 2008 SP1. Starting with the EF4.1 release it has shipped as the [EntityFramework NuGet package](https://www.nuget.org/packages/EntityFramework/) - currently one of the most popular packages on NuGet.org.
+
+This documentation provides information on Entity Framework 6 (EF6), the latest major version of EF, although much of it also applies to past versions.
 
 [![GetIt](../ef6/media/getit.png) **Get Entity Framework**](Get-Entity-Framework.md)  
 Add the EntityFramework NuGet package to your project or install the Entity Framework Tools for Visual Studio.
